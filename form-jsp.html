@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire Person</title>
+</head>
+<body>
+    <h1>Informations personnelles</h1>
+
+    <form action="bean.jsp" method="POST">
+        Prénom : <input type="text" name="firstName" required>
+        <br><br>
+
+        Nom : <input type="text" name="lastName" required>
+        <br><br>
+
+        Date de naissance : <input type="date" name="birthDay" required>
+        <br><br>
+
+        Sexe :
+        <select name="sex">
+            <option value="Homme">Homme</option>
+            <option value="Femme">Femme</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>
